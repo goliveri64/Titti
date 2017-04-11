@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: Titti
+  host: Titti
+  disk_quota: 1024M
+  services:
+  - Titti-personality_insights
